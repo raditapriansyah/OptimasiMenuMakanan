@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Parameter">
+
+        <Preference
+            android:key="pref_pso"
+            android:title="Parameter GA"
+            android:summary="Isi parameter GA"/>
+
+        <!--<Preference-->
+            <!--android:key="pref_sa"-->
+            <!--android:title="Parameter SA"-->
+            <!--android:summary="Isi parameter SA"/>-->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Bahan Makanan">
+
+        <Preference
+            android:key="pref_protein_hewani"
+            android:title="Protein Hewani"
+            android:summary="Lihat protein hewani"/>
+
+        <Preference
+            android:key="pref_protein_nabati"
+            android:title="Protein Nabati"
+            android:summary="Lihat protein nabati"/>
+
+        <Preference
+            android:key="pref_lemak"
+            android:title="Lemak"
+            android:summary="Lihat lemak"/>
+
+        <Preference
+            android:key="pref_karbohidrat"
+            android:title="Karbohidrat"
+            android:summary="Lihat karbohidrat"/>
+
+        <Preference
+            android:key="pref_gula"
+            android:title="Gula"
+            android:summary="Lihat gula"/>
+
+        <Preference
+            android:key="pref_buah"
+            android:title="Buah"
+            android:summary="Lihat buah"/>
+
+        <Preference
+            android:key="pref_sayur"
+            android:title="Sayur"
+            android:summary="Lihat sayur"/>
+
+        <Preference
+            android:key="pref_susu"
+            android:title="Susu"
+            android:summary="Lihat susu"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Penjadwalan">
+
+        <net.gumcode.optimasimenumakanan.view.EditTextDialogPreference
+            android:key="pref_jadwal"
+            android:title="Hari"
+            android:summary="Jumlah hari"
+            android:positiveButtonText="OKE"
+            android:negativeButtonText="BATAL" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Anggota Keluarga">
+
+        <Preference
+            android:key="pref_keluarga"
+            android:title="Keluarga"
+            android:summary="Lihat anggota keluarga"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

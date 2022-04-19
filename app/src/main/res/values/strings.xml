@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Optimasi Variasi Menu Makanan</string>
+    <string name="action_settings">Settings</string>
+    <string name="result">Result</string>
+    <string name="parameter_pso">Parameter GA</string>
+    <string name="parameter_sa">Parameter SA</string>
+    <string name="protein">Protein</string>
+    <string name="table">Table</string>
+    <string name="lemak">Lemak</string>
+    <string name="karbohidrat">Karbohidrat</string>
+    <string name="parameter">Silahkan isi parameter</string>
+    <string name="angkel">Keluarga</string>
+    <string name="sayur">SAYUR</string>
+    <string name="lauk">LAUK</string>
+    <string name="minuman">MINUMAN</string>
+    <string name="akg">AKG</string>
+
+    <string-array name="jk">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="aktivitas">
+        <item>Sangat Ringan</item>
+        <item>Ringan</item>
+        <item>Sedang</item>
+        <item>Berat</item>
+    </string-array>
+
+    <string-array name="header_title">
+        <item>ID</item>
+        <item>NAMA</item>
+       <item>HARGA</item>
+        <item>BERAT</item>
+        <item>KALORI</item>
+        <item>KARBOHIDRAT</item>
+        <item>PROTEIN</item>
+        <item>LEMAK</item>
+    </string-array>
+
+    <string-array name="angkel_title">
+        <item>NO</item>
+        <item>NAMA</item>
+        <item>USIA</item>
+        <item>JK</item>
+        <item>BERAT</item>
+        <item>TINGGI</item>
+        <item>AKTIVITAS</item>
+    </string-array>
+
+    <string-array name="akg_title">
+        <item>NO</item>
+        <item>NAMA</item>
+        <item>ENERGI</item>
+        <item>PROTEIN</item>
+        <item>KARBOHIDRAT</item>
+        <item>LEMAK</item>
+        <item>TIPE</item>
+    </string-array>
+
+    <string-array name="hasil_title">
+        <item>GEN</item>
+        <item>KROMOSOM</item>
+        <item>FITNESS</item>
+    </string-array>
+</resources>

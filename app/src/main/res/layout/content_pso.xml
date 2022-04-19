@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.PsoActivity"
+    tools:showIn="@layout/activity_pso">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:text="Popsize"/>
+
+        <EditText
+            android:id="@+id/pop_size"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            android:hint="Popsize"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:text="Crossover Rate (Cr)"/>
+
+        <EditText
+            android:id="@+id/cr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            android:hint="Crossover Rate (Cr)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:text="Mutation Rate (Mr)"/>
+
+        <EditText
+            android:id="@+id/mr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            android:hint="Mutation Rate (Mr)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:text="Jumlah Generasi"/>
+
+        <EditText
+            android:id="@+id/gen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            android:hint="Jumlah Generasi"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:text="SUBMIT"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
